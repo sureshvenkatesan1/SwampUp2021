@@ -1,7 +1,0 @@
-.idea
-.gradle
-.jfrog
-build
-node_modules
-scripts/security.env
-jfrog
