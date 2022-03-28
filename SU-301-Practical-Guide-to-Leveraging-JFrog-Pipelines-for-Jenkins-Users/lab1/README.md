@@ -2,7 +2,7 @@
 
 1. Create a branch called **java** or **python**
 ```
-# on the main branch, run on of the following command
+# on the main branch, run one of the following commands
 git checkout -b java
 git checkout -b python
 
