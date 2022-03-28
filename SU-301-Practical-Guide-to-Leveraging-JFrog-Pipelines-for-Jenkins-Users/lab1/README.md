@@ -17,13 +17,15 @@ git push -u origin python
 ```
 
 3. Create the following Pipelines integrations :
-* Github and name it `my_github`, choose **Pipelines** for the usage
+* Github and name it `YOURNAME_github`, choose **Pipelines** for the usage
 
-4. Load the pipeline source of your choice and specify one of the following **Pipeline Config File Filter**
+4. Change all the places in the YAML files that have XXX_github to YOURNAME_github
+
+5. Load the pipeline source of your choice and specify one of the following **Pipeline Config File Filter**
 * java : `SU-301-Practical-Guide-to-Leveraging-JFrog-Pipelines-for-Jenkins-Users/lab1/java/pipelines.*\.yml`
 * python : `SU-301-Practical-Guide-to-Leveraging-JFrog-Pipelines-for-Jenkins-Users/lab1/python/pipelines.*\.yml`
 
-4. Run the pipeline ... and fix it :P
+6. Run the pipeline ... and fix it :P
 
 The pipeline will be triggered on each commit and pull request !
 
