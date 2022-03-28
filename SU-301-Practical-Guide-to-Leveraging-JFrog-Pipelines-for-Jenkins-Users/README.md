@@ -1,3 +1,6 @@
+# Global pre-requisites
+
+Make sure there is an Artifactory integration named `artifactory_eu`
 # Pre requisites
 
 1. Fork this github repository
