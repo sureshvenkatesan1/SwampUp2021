@@ -2,8 +2,8 @@ resources:
   - name: lab1_src_code_backapp_mvn
     type: GitRepo
     configuration:
-      gitProvider: XXX_github
-      path: cyan21/SwampUp2021
+      gitProvider: sureshv_gitProvider
+      path: sureshvenkatesan1/SwampUp2021
       branches:
         include: {{ gitBranch }}
       files:
